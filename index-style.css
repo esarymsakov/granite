@@ -475,7 +475,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 820px;
+        height: 850px;
     }
 
     .logo-box img {
@@ -485,12 +485,12 @@ footer {
 
     .logo-box {
         top: -75px;
-        left: 110px;
+        left: 113px;
     }
 
     .frame-box {
         width: 95%;
-        height: 82%;
+        height: 600px;
         position: relative;
         left: unset;
         top: unset;
@@ -520,7 +520,7 @@ footer {
     }
 
     .header-photo {
-        top: 590px;
+        top: 630px;
         right: 26px;
     }
 
@@ -596,14 +596,14 @@ footer {
 
     .about-us-img {
         width: 100%;
-        margin: 5px;
+        margin: 0;
         float: unset;
 
     }
 
     .about-us-img2 {
         width: 100%;
-        margin: 5px;
+        margin: 0;
         float: unset;
     }
 
@@ -634,8 +634,13 @@ footer {
         display: none;
     }
 
-    .map iframe {
+    .footer-map iframe {
         width: 100%;
         height: 150px;
+        margin: 0;
+    }
+
+    .map {
+        width: 100%;
     }
 }
