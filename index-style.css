@@ -539,9 +539,7 @@ footer {
     }
 
     .icon-angle {
-        left: 47%;
-        top: 96%;
-        z-index: 2;
+        display: none;
     }
 
     /*--cta--*/
@@ -552,10 +550,10 @@ footer {
     }
 
     .cta-button {
-        line-height: 25px;
-        text-indent: 15px;
+        line-height: 3rem;
         font-size: 16px;
         margin: 15px 0;
+        padding: 0 2rem 0 2rem;
     }
     
     /*------main------*/
