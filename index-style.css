@@ -205,20 +205,20 @@ p {
 }
 
 .cta-button {
-    padding: 10px 15px;
-    background: rgb(240, 114, 74);
-    border: 2px solid rgba(236, 82, 24, 0);
+    font-size: 16px;
+    border-radius: 100px;
+    border: 0;
+    margin: 1rem 0;
+    padding: 0.7rem 2rem;
+    background-color: #FF451B;
     color: white;
-    border-radius: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    box-shadow: 0 0 15px rgba(236, 82, 24, 0.6);
     cursor: pointer;
-
+    box-shadow: 0 0 15px rgba(236, 82, 24, 0.6);
+    font-weight: 400;
 }
 
 .cta-button:hover {
-    background: rgb(247, 137, 102);
+    background: #fa5732;
 }
 
 /*--Gallery--*/
