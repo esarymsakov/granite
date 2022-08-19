@@ -161,5 +161,9 @@ textarea {
         padding: 3rem 1.5rem;
         margin-bottom: 2rem;
     }
+    
+    .button {
+        line-height: 0.7rem;
+    }
 
 }
