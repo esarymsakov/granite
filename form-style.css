@@ -122,6 +122,8 @@ textarea {
     background-color: #FF451B;
     color: white;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .button:hover {
