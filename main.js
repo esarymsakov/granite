@@ -47,7 +47,7 @@ $('.telegram-form').on('submit', function (event) {
                 }, false );
             }
             return myXhr;
-            complete();
+//             complete();
             
         },
         error: function( jqXHR, textStatus ) {
@@ -57,7 +57,7 @@ $('.telegram-form').on('submit', function (event) {
             // Тут можем что-то делать ПОСЛЕ успешной отправки формы
             console.log('Complete')
             form.reset() 
-            window.location.href = 'complete.html'
+//             window.location.href = 'complete.html'
         }
     });
 
