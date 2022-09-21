@@ -10,6 +10,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/wMvNjyDg/GRANIT-KG-LOGO-TRANSPERENT.png">
         <script src="https://kit.fontawesome.com/074e741890.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- <script src="script.js"></script> -->
     </head>
     <body>
         <main>
@@ -19,24 +21,24 @@
             <div class="container">
                 <div class="frame">
                     <div class="form">
-                        <form action="">
+                        <form class="telegram-form">
                             <div class="input-box">
                                 <label for="name">Ваше имя</label>
-                                <input type="text" placeholder="Введите ваше имя" id="name" required class="placeholder">    
+                                <input name="name" type="text" placeholder="Введите ваше имя" id="name" required class="placeholder">    
                             </div>
                             <div class="input-box">
                                 <label for="phone">Ваш номер телефона</label>
-                                <input type="tel" placeholder="+996 XXX 123 456" id="phone" required class="placeholder">    
+                                <input name="phone" type="tel" placeholder="+996 XXX 123 456" id="phone" required class="placeholder">    
                             </div>
                             <div class="input-box">
-                                <label for="text-area">Ваше сообщение</label>
-                                <textarea rows="10" cols="40" id="text-area" placeholder="Введите ваше сообщение" required class="placeholder"></textarea>
+                                <label for="text">Ваше сообщение</label>
+                                <textarea name="text" rows="10" cols="40" id="text-area" placeholder="Введите ваше сообщение" required class="placeholder"></textarea>
                             </div>
                             <div class="input-box">
                                 <p>Нажимая на кнопку «отправить», вы подтверждаете, что согласны с нашей <a href="">политикой обработки данных</a></p>
                             </div>
                             <div class="input-box">
-                                <button class="button">Отправить</button>
+                                <button type="submit" class="button">Отправить</button>
                             </div>
                         </form>
                     </div>
@@ -48,5 +50,7 @@
             </div>
         </main>
         <footer></footer>
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+            <script src="./main.js"></script>
     </body>
 </html>
